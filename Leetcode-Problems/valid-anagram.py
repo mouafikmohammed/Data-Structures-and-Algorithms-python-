@@ -13,14 +13,15 @@ def isAnagram(s, t):
    
    for i in s:
       if i in s_dic:
-            s_dic[i] += 1
+         s_dic[i] += 1
       else:
-            s_dic[i] = 1
+         s_dic[i] = 1
+            
    for i in t:
       if i in t_dic:
-            t_dic[i] += 1
+         t_dic[i] += 1
       else:
-            t_dic[i] = 1
+         t_dic[i] = 1
 
 
    if s_dic == t_dic:
@@ -28,6 +29,27 @@ def isAnagram(s, t):
    else:
       return False
    
-   
+
+
+
+# another way
+def isAnagram2(s, t):
+   """
+   :type s: str
+   :type t: str
+   :rtype: bool
+   """
+   flag = True
+   if len(s) != len(t): 
+      flag = False
+   else:
+      letters = "abcdefghijklmnopqrstuvwxyz"
+      for letter in letters:
+         if s.count(letter) != t.count(letter):
+            flag = False
+            break
+   return flag
+
+
 print(isAnagram("anagram","nagaram")) # True
 print(isAnagram("rat", "car")) # Flase
