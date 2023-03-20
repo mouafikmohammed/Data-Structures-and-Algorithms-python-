@@ -1,10 +1,11 @@
 # LeetCode Solutions
-This dir contains my solutions to LeetCode problems. I solve a new problem always and add the solution code to this repository.
+This folder contains my solutions to LeetCode problems. I solve a new problem always and add the solution code to this repository.
 
 ## Problems
 | Name          | Description                                                   |  |
 |---------------|---------------------------------------------------------------|--|
 | [**217. Contains Duplicate**](contains-duplicate.py) |Given an integer array `nums`, return ``true`` if any value appears at least twice in the array, and return ``false`` if every element is distinct.| `easy` [<div style="color:yellow;">problem</div>](https://leetcode.com/problems/contains-duplicate/description/) |
+| [**242. Valid Anagram**](contains-duplicate.py) |Given two strings `s` and `t`, return ``true`` if ``t`` is an anagram of ``s``, and ``false`` otherwise.| `easy` [<div style="color:yellow;">problem</div>](https://leetcode.com/problems/valid-anagram/description/) |
 
 
 ## What is Leetcode

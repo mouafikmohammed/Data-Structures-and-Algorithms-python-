@@ -1,6 +1,6 @@
 # https://leetcode.com/problems/valid-anagram/description/
 # 242. Valid Anagram
-def isAnagram(s, t):
+def isAnagram(s, t) -> bool:
    """
    :type s: str
    :type t: str
@@ -33,7 +33,7 @@ def isAnagram(s, t):
 
 
 # another way
-def isAnagram2(s, t):
+def isAnagram2(s, t)->bool:
    """
    :type s: str
    :type t: str
