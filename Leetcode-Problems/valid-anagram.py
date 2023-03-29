@@ -8,6 +8,7 @@ def isAnagram(s, t) -> bool:
    """
    if len(s) != len(t):
       return False
+   
    s_dic = {}
    t_dic = {}
    
