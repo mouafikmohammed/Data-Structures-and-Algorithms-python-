@@ -2,7 +2,7 @@
 
 ## To-Do:
 - [x] Insertion Sort
-- [ ] Quick Sort
+- [x] Quick Sort
 - [ ] Merge Sort
 - [ ] Heap Sort
 - [ ] Bubble Sort
